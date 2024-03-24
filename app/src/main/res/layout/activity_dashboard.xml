@@ -68,7 +68,7 @@
         android:layout_below="@id/top_layout"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
-        android:padding="10sp"
+        android:paddingHorizontal="50sp"
         android:src="@drawable/logo_2"
         android:textColor="@color/black"
         android:textSize="24sp" />
