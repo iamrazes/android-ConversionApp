@@ -45,7 +45,7 @@ class DashboardActivity : AppCompatActivity() {
         }
 
         btnTime.setOnClickListener {
-            startActivity(Intent(this@DashboardActivity, ConversionMassActivity::class.java))
+            startActivity(Intent(this@DashboardActivity, ConversionTimeActivity::class.java))
         }
 
     }
