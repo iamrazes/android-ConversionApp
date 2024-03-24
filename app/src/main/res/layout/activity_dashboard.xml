@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DashboardActivity">
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <!-- Profile icon -->
+        <ImageButton
+            android:id="@+id/profile_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_profile"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="4dp"/>
+
+        <!-- Username -->
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello, Username"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="16dp"/>
+
+        <!-- Spacer -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <!-- Search icon -->
+        <ImageButton
+            android:id="@+id/search_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_search"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="8dp"/>
+
+        <!-- Exit icon -->
+        <ImageButton
+            android:id="@+id/exit_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_exit"
+            android:layout_marginStart="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="3dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/top_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:padding="10sp"
+        android:src="@drawable/logo_2"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+
+    <GridLayout
+        android:id="@+id/icon_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:padding="16dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_temperature"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_temperature" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Suhu"
+                android:layout_marginVertical="4sp"
+                android:textSize="14sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_distance"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_distance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Jarak"
+                android:layout_marginVertical="4sp"
+                android:textSize="14sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_mass"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_mass" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Massa"
+                android:layout_marginVertical="4sp"
+                android:textSize="14sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_time"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_time" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Waktu"
+                android:layout_marginVertical="4sp"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </GridLayout>
+</RelativeLayout>
