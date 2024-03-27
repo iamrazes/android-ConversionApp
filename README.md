@@ -3,8 +3,8 @@ Conversion is android app developed with Android Studio and programming language
 This app also included with splash screen or launching screen whos job to check internet connectivity to proceed to login page, in the login page user can input username and password who's data is installed on user model. <br>
 <br>
 <b>Credential info:</b> <br>
-username: r <br>
-password: r <br>
+username: admin <br>
+password: admin <br>
 
 # Screenshots and Documentations
 Submitted on : Tuesday, 13th February 2024<br>
@@ -18,3 +18,7 @@ Submitted on : Tuesday, 20th February 2024<br>
 * Created a menu for conversion including temperature, distance, mass and time.<br>
 
 ![Frame 4](https://github.com/iamrazes/android-ConversionApp/assets/71701718/5365075d-d334-44c9-8dfc-47763ef45b74)
+
+Submitted on : Tuesday, 27th March 2024<br>
+* Changes to app theme including logo, icon and status bar<br>
+* Changes to user model data<br>
