@@ -8,8 +8,8 @@ data class User(
 
 var dataDummy = listOf(
     User (
-        name = "Developer",
-        username = "r",
-        password = "r"
+        name = "Admin",
+        username = "admin",
+        password = "admin"
     )
 )
