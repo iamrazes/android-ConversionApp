@@ -11,13 +11,12 @@ Submitted on : Tuesday, 13th February 2024<br>
 * Created a splash screen, login page, and dashboard menu<br>
 * Created User model for login credential inlcuding name, username, and password<br>
 
-![Frame 3](https://github.com/iamrazes/android-ConversionApp/assets/71701718/e1896ab6-d710-43b5-b788-e921a18fc381)
-
+![Tugas 1](https://github.com/iamrazes/android-ConversionApp/assets/71701718/10f5c741-4c55-4a86-9e95-1e201781ee2f)
 
 Submitted on : Tuesday, 20th February 2024<br>
 * Created a menu for conversion including temperature, distance, mass and time.<br>
 
-![Frame 4](https://github.com/iamrazes/android-ConversionApp/assets/71701718/5365075d-d334-44c9-8dfc-47763ef45b74)
+![Tugas 2](https://github.com/iamrazes/android-ConversionApp/assets/71701718/d33013d3-4b0a-4e73-a33a-f3f4388f1d7f)
 
 Submitted on : Tuesday, 27th March 2024<br>
 * Changes to app theme including logo, icon and status bar<br>
